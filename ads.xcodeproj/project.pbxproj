@@ -13,6 +13,9 @@
 		AB907B0E1ED91BA2001B1454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB907B0C1ED91BA2001B1454 /* Main.storyboard */; };
 		AB907B101ED91BA2001B1454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB907B0F1ED91BA2001B1454 /* Assets.xcassets */; };
 		AB907B131ED91BA2001B1454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB907B111ED91BA2001B1454 /* LaunchScreen.storyboard */; };
+		AB907B1B1ED91C42001B1454 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB907B1A1ED91C42001B1454 /* LoginViewController.swift */; };
+		AB907B1D1ED92F70001B1454 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB907B1C1ED92F70001B1454 /* Utils.swift */; };
+		AB907B1F1ED95869001B1454 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB907B1E1ED95869001B1454 /* NetWorkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		AB907B0F1ED91BA2001B1454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB907B121ED91BA2001B1454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB907B141ED91BA2001B1454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB907B1A1ED91C42001B1454 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AB907B1C1ED92F70001B1454 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		AB907B1E1ED95869001B1454 /* NetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				AB907B0F1ED91BA2001B1454 /* Assets.xcassets */,
 				AB907B111ED91BA2001B1454 /* LaunchScreen.storyboard */,
 				AB907B141ED91BA2001B1454 /* Info.plist */,
+				AB907B1A1ED91C42001B1454 /* LoginViewController.swift */,
+				AB907B1C1ED92F70001B1454 /* Utils.swift */,
+				AB907B1E1ED95869001B1454 /* NetWorkManager.swift */,
 			);
 			path = ads;
 			sourceTree = "<group>";
@@ -140,6 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB907B1D1ED92F70001B1454 /* Utils.swift in Sources */,
+				AB907B1B1ED91C42001B1454 /* LoginViewController.swift in Sources */,
+				AB907B1F1ED95869001B1454 /* NetWorkManager.swift in Sources */,
 				AB907B0B1ED91BA2001B1454 /* SecondViewController.swift in Sources */,
 				AB907B071ED91BA2001B1454 /* AppDelegate.swift in Sources */,
 				AB907B091ED91BA2001B1454 /* FirstViewController.swift in Sources */,
@@ -267,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XL72T4QE66;
 				INFOPLIST_FILE = ads/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitse.ads;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -280,6 +293,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XL72T4QE66;
 				INFOPLIST_FILE = ads/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitse.ads;
 				PRODUCT_NAME = "$(TARGET_NAME)";
